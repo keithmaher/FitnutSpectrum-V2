@@ -50,9 +50,6 @@
             , email: {
                 required: true, email: true
             }
-            , subject: {
-                required: false,
-            }
             , message: {
                 required: true,
             }
@@ -70,17 +67,17 @@
             }
             ,
         }
-        , submitHandler: function(form) {
-            $(form).ajaxSubmit( {
-                type:"POST", data: $(form).serialize(), url:"sendmail.php", success: function() {
-                    $('#contact-form #success').fadeIn();
-                }
-                , error: function() {
-                    $('#contact-form #error').fadeIn();
-                }
-            }
-            );
-        }
+        // , submitHandler: function(form) {
+        //     $(form).ajaxSubmit( {
+        //         type:"POST", data: $(form).serialize(), url:"sendmail.php", success: function() {
+        //             $('#contact-form #success').fadeIn();
+        //         }
+        //         , error: function() {
+        //             $('#contact-form #error').fadeIn();
+        //         }
+        //     }
+        //     );
+        // }
     });
 
 
@@ -115,7 +112,7 @@ $(document).ready(function(){
     });
 
     $("#clients-logo").owlCarousel({
- 
+
         itemsCustom : false,
         pagination : false,
         items : 5,
@@ -140,8 +137,8 @@ $(".fancybox").fancybox({
 
     closeClick : true,
     helpers : {
-        title : { 
-            type: 'inside' 
+        title : {
+            type: 'inside'
         },
         overlay : {
             css : {
@@ -150,14 +147,3 @@ $(".fancybox").fancybox({
         }
     }
 });
-
-
-
-
-
-
- 
-
-
-
-

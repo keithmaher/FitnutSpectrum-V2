@@ -29,7 +29,7 @@
                     <li><a href="service.php">Service</a></li>
                     <li><a href="blog.php">Blog</a></li>
                     <li><a href="http://fitnutspectrum.com/shop">Shop</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
         </nav>

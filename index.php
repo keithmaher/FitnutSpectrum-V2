@@ -70,11 +70,12 @@
             <div class="container">
                 <div class="section-heading">
                     <h1 class="title wow fadeInDown" data-wow-delay=".3s">Services</h1>
-                    <p class="wow fadeInDown" data-wow-delay=".5s">
+                      <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <p style="font-size: 16px;">
                         Fitnut was based on the ethos that knowledge is power, and that knowledge is key.<br>I believe in the bigger picture and long term orientated goal setting set about through practical application and actionable steps. <br>Progress is our passion, and we want you to share our passion with us.<br><br>
                     We like to work together with our clients, eliminating barriers and decreasing limiting factors, to ensure that they get the most out of their plan, and themselves.
                   </p>
-
+</div>
                 <div class="blog-content">
                   <a href="service.php" class="btn btn-dafault btn-details">Show Me More</a>
                 </div>

@@ -3,7 +3,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="icon" href="images/picture.png">
+    <link rel="icon" href="images/logo2.png">
     <title>E Lynch FitNut</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
